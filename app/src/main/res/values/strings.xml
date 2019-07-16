@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name"> <font size="28">MyClasses </font> <font color="#3F51B5" size="10">by Aabiskar</font></string>
+    <string name="title_activity_calander">Calander</string>
+</resources>

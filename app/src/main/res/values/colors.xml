@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#FFFF</color>
+    <color name="white">#FFFF</color>
+    <color name="white_transparent16">#252525</color>
+    <!--#111111-->
+    <color name="background_black">#000</color>
+    <color name="aboutme_background">#353654</color>
+    <color name="fab_color_background_normal">#FF5722</color>
+    <color name="fab_closeBtn_color_background_normal">#FF1744</color>
+    <color name="orange">#1976D2</color>
+    <color name="fab_color_background_pressed">#F44336</color>
+    <color name="blue">#FBC02D</color>
+    <color name="fab_closeBtn_color_background_pressed">#F44336</color>
+    <color name="transparent">#00F44336</color>
+    <color name="grey">#B3B3BD</color>
+
+
+</resources>

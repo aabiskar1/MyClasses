@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_black">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/sunday_card"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:elevation="24dp"
+                app:cardBackgroundColor="@color/white_transparent16"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:id="@+id/sunday_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/lbl_sunday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="SUNDAY"
+                        android:textColor="@android:color/white"
+                        android:textSize="36sp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/lbl_sunday"
+                        android:layout_centerInParent="true">
+
+                        <TextView
+                            android:id="@+id/lbl_sunday_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/lbl_sunday_holder"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/lbl_sunday_holder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Number of classes: "
+                            android:textColor="@color/white" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/monday_card"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:elevation="24dp"
+                app:cardBackgroundColor="@color/white_transparent16"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:id="@+id/monday_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/lbl_monday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="MONDAY"
+                        android:textColor="@android:color/white"
+                        android:textSize="36sp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/lbl_monday"
+                        android:layout_centerInParent="true">
+
+                        <TextView
+                            android:id="@+id/lbl_monday_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/lbl_monday_holder"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/lbl_monday_holder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Number of classes: "
+                            android:textColor="@color/white" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/tuesday_card"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:elevation="24dp"
+                app:cardBackgroundColor="@color/white_transparent16"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:id="@+id/tuesday_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/lbl_tuesday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="TUESDAY"
+                        android:textColor="@android:color/white"
+                        android:textSize="36sp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/lbl_tuesday"
+                        android:layout_centerInParent="true">
+
+                        <TextView
+                            android:id="@+id/lbl_tuesday_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/lbl_tuesday_holder"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/lbl_tuesday_holder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Number of classes: "
+                            android:textColor="@color/white" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/wednesday_card"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:elevation="24dp"
+                app:cardBackgroundColor="@color/white_transparent16"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:id="@+id/wednesday_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/lbl_wednesday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="WEDNESDAY"
+                        android:textColor="@android:color/white"
+                        android:textSize="36sp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/lbl_wednesday"
+                        android:layout_centerInParent="true">
+
+                        <TextView
+                            android:id="@+id/lbl_wednesday_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/lbl_wednesday_holder"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/lbl_wednesday_holder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Number of classes: "
+                            android:textColor="@color/white" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/thursday_card"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:elevation="24dp"
+                app:cardBackgroundColor="@color/white_transparent16"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:id="@+id/thursday_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/lbl_thursday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="THURSDAY"
+                        android:textColor="@android:color/white"
+                        android:textSize="36sp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/lbl_thursday"
+                        android:layout_centerInParent="true">
+
+                        <TextView
+                            android:id="@+id/lbl_thursday_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/lbl_thursday_holder"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/lbl_thursday_holder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Number of classes: "
+                            android:textColor="@color/white" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/friday_card"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:elevation="24dp"
+                app:cardBackgroundColor="@color/white_transparent16"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:id="@+id/friday_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/lbl_friday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:text="FRIDAY"
+                        android:textColor="@android:color/white"
+                        android:textSize="36sp" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_below="@id/lbl_friday"
+                        android:layout_centerInParent="true">
+
+                        <TextView
+                            android:id="@+id/lbl_friday_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/lbl_friday_holder"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textColor="@color/white" />
+
+                        <TextView
+                            android:id="@+id/lbl_friday_holder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:text="Number of classes: "
+                            android:textColor="@color/white" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/floatingActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:baselineAlignBottom="false"
+        android:clickable="true"
+        android:focusable="true"
+        android:translationZ="90dp"
+        app:fab_addButtonColorNormal="@color/fab_color_background_normal"
+        app:fab_addButtonColorPressed="@color/fab_color_background_pressed"
+        app:srcCompat="@android:drawable/ic_menu_share">
+
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabitem_memo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/fab_color_background_normal"
+            app:fab_colorPressed="@color/fab_color_background_pressed"
+            app:fab_icon="@drawable/ic_note_add_24dp"
+            app:fab_size="mini" />
+
+
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabitem_aboutme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_colorNormal="@color/fab_color_background_normal"
+            app:fab_colorPressed="@color/fab_color_background_pressed"
+            app:fab_icon="@drawable/ic_info_outline_white_24dp"
+            app:fab_size="mini" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</android.support.design.widget.CoordinatorLayout>
