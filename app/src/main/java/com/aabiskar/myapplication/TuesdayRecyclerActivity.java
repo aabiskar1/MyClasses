@@ -58,7 +58,7 @@ public class TuesdayRecyclerActivity extends AppCompatActivity {
     }
 
     private void setUpRecyclerView(){
-        Query query = wednesdayRef.orderBy("module_order", Query.Direction.ASCENDING);
+        Query query = tuesdayRef.orderBy("module_order", Query.Direction.ASCENDING);
 
         FirestoreRecyclerOptions<DataItems> options = new FirestoreRecyclerOptions.Builder<DataItems>()
                 .setQuery(query,DataItems.class)
